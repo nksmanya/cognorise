@@ -1,0 +1,312 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+   
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:"Playwrite Nigeria Modern", serif;
+    color: #000000;
+    background-color:linear-gradient(to bottom #bec0c0,#898c8c,#545656,#202121, #040404);
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+p {
+    margin-bottom: 20px;
+    background-color:linear-gradient(to bottom #bec0c0,#898c8c,#545656,#202121, #040404); 
+}
+
+a {
+    text-decoration:double;
+    color: #ffffff;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    
+}
+.hero {
+    background-color:linear-gradient(to bottom #bec0c0,#898c8c,#545656,#202121, #040404);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.welcome{
+    text-align: center;
+    background-color: linear-gradient (to bottom #bec0c0,#898c8c,#545656,#202121, #040404);
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #6f6a6a;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.packages {
+    background-color:linear-gradient(to bottom #bec0c0,#898c8c,#545656,#202121, #040404);
+    padding: 40px;
+}
+
+.packages h2 {
+    margin-top: 0;
+}
+
+.package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.package {
+    
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+.package li {
+    margin-bottom: 10px;
+}
+
+.package li:before {
+    content: "\2713";
+    margin-right: 10px;
+    color: #8BC34A;
+}
+
+.timings {
+    background-color:lightcyan;
+    padding: 40px;
+    text-align: center;
+}
+
+.timings table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.timings th, .timings td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.offers {  
+    padding: 40px;
+    background-image: url(introimage.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.offers h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.offer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.offer h3 {
+    margin-top: 0;
+}
+
+
+.gym-gears {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.gym-gears h2 {
+    margin-top: 0;
+}
+
+.gear-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gear {
+    background-color:linear-gradient(to bottom #bec0c0,#898c8c,#545656,#202121, #040404);
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.gear img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.nutrition-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nutrition {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+   
+}
+.nutrition img  {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.site-footer {
+background-color: #26272b;
+
+padding: 45px 0 20px;
+font-size: 15px;
+line-height: 24px;
+color: #737373;
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.site-footer hr {
+border-top-color: #bbb;
+opacity: 0.5;
+}
+.site-footer h6 {
+color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+margin-top: 5px;
+letter-spacing: 2px;
+}
+.site-footer a {
+color: #737373;
+}
+
+
+.footer-links a:hover {
+color: #fff;
+text-decoration:dotted;
+}
+
+.formBox {
+    padding: 15px;
+    text-align: center;
+    min-height: 50vh;
+    min-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    background: #f8f8f885;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    
+}
+form {
+    padding: 10px;
+}
+
+form>div {
+    padding: 10px;
+    position: relative;
+    font-size: 1.3em;
+}
+form>div i {
+    position: absolute;
+    top: 22px;
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+form>div input {
+    height: 2em;
+    width: 70vw;
+    padding-left: 40px;
+    font-size: 1em;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #b5adad;
+    background-color: #f1f1f1;
+}
+
+div>input:focus {
+    border: 1px solid #6f6a6a;
+
+}
+textarea {
+    border: none;
+    width: 70vw;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 1em;
+}
+
+button {
+    width: 50%;
+    height: 5vh;
+    color:rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+@media screen and (min-width:900px) {
+    form>div input {
+        width: 50vw;
+    }
+
+    textarea {
+        width: 50vw;
+    }
+}
